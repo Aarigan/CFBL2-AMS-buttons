@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+:root {
+  --clr-blk: #000;
+  --clr-wht: #fff;
+  --clr-bkg1: rgb(161, 2, 252);
+  --clr-bkg2: rgb(97, 1, 153);
+}
+
+
 *,
 *::before,
 *::after {
@@ -16,7 +24,7 @@ body {
   gap: 30px;
   min-height: 100vh;
   width: 100%;
-  background: #000;
+  background: var(--clr-blk);
 }
 
 .button1,
@@ -29,8 +37,8 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
-  background: rgb(161, 2, 252);
+  color: var(--clr-wht);
+  background: var(--clr-bkg1);
   border: none;
   border-radius: 6px;
   text-decoration: none;  /* Only button 2*/
@@ -40,7 +48,8 @@ body {
 .button1:hover,
 .button2:hover,
 .button3:hover {
-  background: rgb(97, 1, 153);
+  background: var(--clr-bkg2);
   transform: scale(1.2);
   transition: all 0.2s ease-in-out;
+}
 }
