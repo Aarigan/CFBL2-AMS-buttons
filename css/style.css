@@ -47,8 +47,14 @@ body {
 }
 
 .button1:hover,
+.button1:focus,
+.button1:active,
 .button2:hover,
-.button3:hover {
+.button2:focus,
+.button2:active,
+.button3:hover,
+.button3:focus,
+.button3:active,{
   background: var(--clr-bkg2);
   transform: scale(1.2);
   transition: all 0.2s ease-in-out;
