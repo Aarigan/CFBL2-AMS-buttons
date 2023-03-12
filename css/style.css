@@ -42,6 +42,7 @@ body {
   border: none;
   border-radius: 6px;
   text-decoration: none;  /* Only button 2*/
+  /*outline-color: transparent; */
   cursor: pointer;
 }
 
