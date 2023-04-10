@@ -6,6 +6,12 @@
   --clr-bkg1: rgb(161, 2, 252);
   --clr-bkg2: rgb(97, 1, 153);
 }
+:root {
+  --clr-blk: #000;
+  --clr-wht: #fff;
+  --clr-bkg1: rgb(161, 2, 252);
+  --clr-bkg2: rgb(97, 1, 153);
+}
 
 
 *,
@@ -27,8 +33,61 @@ body {
   background: var(--clr-blk);
 }
 
-.button1,
-.button2,
+ /* button 1 */
+
+.button1 {
+  padding: 10px 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--clr-wht);
+  background: var(--clr-bkg1);
+  border: none;
+  /*   outline-color: transparent; */
+  border-radius: 6px;
+  text-decoration: none;  /* Only button 2*/
+  cursor: pointer;
+}
+
+.button1:hover,
+.button1:focus,
+.button1:active {
+  background: var(--clr-bkg2);
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+
+ /* button 2 */
+.button2 {
+  padding: 10px 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--clr-wht);
+  background: var(--clr-bkg1);
+  border: none;
+  /*   outline-color: transparent; */
+  border-radius: 6px;
+  text-decoration: none;  /* Only button 2*/
+  cursor: pointer;
+}
+
+.button2:hover,
+.button2:focus,
+.button2:active {
+  background: var(--clr-bkg2);
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+
+ /* button 3 */
+
 .button3 {
   padding: 10px 30px;
   font-family: 'Poppins', sans-serif;
@@ -40,23 +99,43 @@ body {
   color: var(--clr-wht);
   background: var(--clr-bkg1);
   border: none;
+  /*   outline-color: transparent; */
   border-radius: 6px;
   text-decoration: none;  /* Only button 2*/
-  /*outline-color: transparent; */
   cursor: pointer;
 }
 
-.button1:hover,
-.button1:focus,
-.button1:active,
-.button2:hover,
-.button2:focus,
-.button2:active,
 .button3:hover,
 .button3:focus,
-.button3:active,{
+.button3:active {
   background: var(--clr-bkg2);
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: all 0.2s ease-in-out;
 }
+
+ /* button 3 */
+
+.button4 {
+  padding: 10px 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--clr-wht);
+  background: var(--clr-bkg1);
+  border: none;
+  /*   outline-color: transparent; */
+  border-radius: 6px;
+  text-decoration: none;  /* Only button 2*/
+  cursor: pointer;
+}
+
+.button4:hover,
+.button4:focus,
+.button4:active {
+  background: var(--clr-bkg2);
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
 }
