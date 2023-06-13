@@ -6,13 +6,6 @@
   --clr-bkg1: rgb(161, 2, 252);
   --clr-bkg2: rgb(97, 1, 153);
 }
-:root {
-  --clr-blk: #000;
-  --clr-wht: #fff;
-  --clr-bkg1: rgb(161, 2, 252);
-  --clr-bkg2: rgb(97, 1, 153);
-}
-
 
 *,
 *::before,
